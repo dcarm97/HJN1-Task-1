@@ -1,0 +1,353 @@
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+main{
+    padding: 20px;
+    min-height:64vh;
+}
+
+header {background:lightblue;
+
+}
+
+
+
+#TanitiBrand{
+    text-align: center;
+}
+
+#SecondaryNav {
+    display: flex; justify-content: space-between; flex-direction: row; margin-bottom: -30px;
+}
+
+#SecondaryNav a{
+    background-color: gray;
+    border-radius: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    margin: 6px
+}
+
+#SecondaryNav a img{
+    width: 16px;
+    vertical-align: sub;
+    padding-left: 4px;
+}
+
+#SecondaryNav form{
+    margin: 6px
+}
+
+#PrimaryNav {
+    display: flex; 
+    justify-content: center; 
+    flex-direction: row;
+}
+
+#TertiaryNav {
+    justify-content: center;
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 75vw;
+    gap: 20px;
+}
+
+#TertiaryNav a{
+    text-align: center;
+    align-content: center;
+    aspect-ratio: 3/4;
+    height:198px;
+    width: 264px;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+
+#TertiaryNav span{
+    background-color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 2.5px 5px;
+    border-radius: 10px;
+}
+
+#PrimaryNav a{
+    background-color: gray;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 2.5px 5px;
+    margin: 5px
+}
+
+#CrumbTrail{
+    margin: -10px auto;
+    text-align: center;
+    padding-left: 0px;
+    width: fit-content;
+}
+
+#CrumbTrail li{
+    display:inline;
+}
+
+#CrumbTrail li+li:before{
+    content: ">\00a0";
+    color: gray;
+}
+
+#CrumbTrail li a{
+    color: gray;
+}
+
+footer{
+    background-color: lightblue;
+    text-align: center;
+}
+footer section{
+    padding:80px;
+}
+
+main{
+    background-color: seashell;
+}
+
+#MainImage{
+    text-align: center;
+    margin: 20px;
+}
+
+#MainImage img{
+    width: 75vw;
+    aspect-ratio: 16/9;
+}
+
+#HomeContent{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    margin: 20px auto;
+    width: 75vw;
+    gap: 20px;
+    
+}
+
+#HomeContent .Collage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+#HomeContent .CollagePic{
+    aspect-ratio: 3/4;
+    height:240px;
+    width: 320px;
+}
+
+#HomeParagraph{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    background-color: lightblue;
+    margin: auto;
+}
+
+#HomeParagraph h2 {
+    margin: 10px auto;
+    font-size: 30px;
+}
+
+#HomeParagraph p {
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+#HomeParagraph a {
+    font-size: 24px;
+    margin: auto auto 20px auto;
+}
+
+.ContentParagraph{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    margin: 20px auto;
+    width: 75vw;
+}
+
+.ContentParagraph h2{
+    margin: 10px 10%;
+    font-size: 30px;
+}
+
+.ContentParagraph p{
+    margin: 20px 10%;
+    font-size: 16px;
+}
+
+#LearnMore{
+    background-color: gray;
+    border-radius: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+}
+
+.ContentNav {
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.ContentNav a {
+    margin: 0px 9px 0px 9px;
+    aspect-ratio: 16/9;
+    width: 37vw;
+    height: 100%;
+    text-decoration: none;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.ContentNav a span {
+    background-color: gray;
+    text-decoration: none;
+    font-size: 32px;
+    color: white;
+    padding: 2.5px 5px;
+    border-radius: 10px;
+}
+
+.ContentList{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 0px;
+    margin: 20px auto;
+    width: 75vw;
+    gap: 20px
+}
+
+.ContentList li {
+    display: flex;
+    justify-content:flex-start;
+    width: 75vw;
+    gap: 20px;
+    background-color: lightblue;
+
+}
+
+.ContentList li div img{
+width: 259px;
+height: 194px;
+}
+
+#SearchpageBar {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+#SearchpageBar input{
+    width: 46vw;
+}
+
+.SearchList{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 0px;
+    margin: 20px auto;
+    width: 75vw;
+    gap: 20px
+}
+
+.SearchList li {
+    display: flex;
+    justify-content:flex-start;
+    width: 75vw;
+    gap: 20px
+}
+
+.SearchList li div img{
+    width: 264px;
+    height: 198px;
+}
+
+#SearchResult{
+    margin: 0px auto;
+    width: 75vw;
+}
+
+#VisitTaniti{
+    background-image: url("Images/Home Images/ayadi-ghaith-QQALjksA15g-unsplash 2022.jpg");
+    background-size: 264px 198px;
+    background-repeat: no-repeat;
+}
+
+#AboutTaniti{
+    background-image: url("Images/Home Images/sho-k-VK0i76SMRFc-unsplash 2021.jpg");
+    background-size: 264px 198px;
+    background-repeat: no-repeat;
+}
+
+#Activities{
+    background-image: url("Images/Home Images/bruno-cervera-4rvc6HWITpY-unsplash 2021.jpg");
+    background-size: 264px 198px;
+    background-repeat: no-repeat;
+}
+
+#Restaurants{
+    background-image: url("Images/Home Images/audrey-langlois-O7sxXNvZPZg-unsplash 2023.jpg");
+    background-size: 264px 198px;
+    background-repeat: no-repeat;
+}
+
+#Stores{
+    background-image: url("Images/Home Images/romeo-a-40K1pkTByn8-unsplash 2023.jpg");
+    background-size: 264px 198px;
+    background-repeat: no-repeat;
+}
+
+#Flights{
+    background-image: url("Images/Visit Taniti Images/khoi-le-PkCFQfZGe1Y-unsplash 2020.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Cruises{
+    background-image: url("Images/Visit Taniti Images/ferran-feixas-Qt5qUbCwzEw-unsplash 2022.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Hostels{
+    background-image: url("Images/Visit Taniti Images/zoshua-colah-TzMGehZmocI-unsplash 2024.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Resorts{
+    background-image: url("Images/Visit Taniti Images/upgraded-points-Vj7eGdQhbak-unsplash 2020.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+cite {
+    color: black;
+}
